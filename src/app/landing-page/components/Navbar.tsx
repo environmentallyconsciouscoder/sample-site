@@ -9,7 +9,7 @@ export function Navbar() {
     >
       <Image src="/images/white-logo.png" alt="RetroSet" width={120} height={36} className="object-contain" />
       <a
-        href="https://prod.dct9derblsir9.amplifyapp.com/signin/"
+        href="https://prod.retroset.app/"
         className="rounded-xl border px-5 py-2 text-sm font-semibold text-white transition-colors hover:text-white"
         style={{ borderColor: `${BRAND}66`, background: `${BRAND}18` }}
       >

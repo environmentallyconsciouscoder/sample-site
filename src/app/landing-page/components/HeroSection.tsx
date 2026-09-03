@@ -22,7 +22,7 @@ export function HeroSection() {
         </h1>
 
         <p className="mx-auto max-w-2xl text-lg text-gray-300 md:text-xl">
-          RetroSet automates workflows, detects defects and compliance issues, and generates reports and plans—so your team can spend less time on admin and more time on site.
+          RetroSet automates workflows, detects defects and compliance issues, and generates reports—so your team can spend less time on admin and more time on site.
         </p>
 
         <p className="text-sm font-medium text-gray-400">

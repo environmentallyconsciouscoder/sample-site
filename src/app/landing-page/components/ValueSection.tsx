@@ -8,15 +8,11 @@ const VALUE_ITEMS = [
   },
   {
     title: "Lower costs per property",
-    detail: "Fewer rework trips and less admin overhead, with reports that don't bounce back for corrections.",
+    detail: "Fewer rework trips and less admin overhead across the assessment workflow.",
   },
   {
     title: "Consistent report quality",
     detail: "Every report follows the same structure, every time — no matter who ran the workflow.",
-  },
-  {
-    title: "Faster retrofit plans",
-    detail: "AI extracts data, maps improvement measures and helps generate a costed plan.",
   },
 ];
 
@@ -32,7 +28,7 @@ export function ValueSection() {
           Built to cut down the admin work that eats into your day.
         </p>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {VALUE_ITEMS.map((v) => (
             <div
               key={v.title}
