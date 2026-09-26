@@ -7,17 +7,16 @@ export interface ContactFormData {
   email: string;
   company: string;
   message: string;
-  audience: string;
 }
 
 type Status = "idle" | "loading" | "success" | "error";
 
 export function useContactForm() {
-  const [form, setForm] = useState<ContactFormData>({ name: "", email: "", company: "", message: "", audience: "" });
+  const [form, setForm] = useState<ContactFormData>({ name: "", email: "", company: "", message: "" });
   const [status, setStatus] = useState<Status>("idle");
   const [errorMessage, setErrorMessage] = useState<string>("");
 
-  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) {
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     setForm((f) => ({ ...f, [e.target.name]: e.target.value }));
   }
 

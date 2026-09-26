@@ -1,8 +1,11 @@
 import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
-import { ProblemSolutionSection } from "./components/ProblemSolutionSection";
-import { ValueSection } from "./components/ValueSection";
-import { WhatYouGainSection } from "./components/WhatYouGainSection";
+import { AudienceSection } from "./components/AudienceSection";
+import { SoftwareSection } from "./components/SoftwareSection";
+import { ServicesSection } from "./components/ServicesSection";
+import { HouseSection } from "./components/HouseSection";
+import { ProblemSection } from "./components/ProblemSection";
+import { SocialProofBar } from "./components/SocialProofBar";
 import { CtaSection } from "./components/CtaSection";
 import { Footer } from "./components/Footer";
 
@@ -11,9 +14,12 @@ export default function LandingPage() {
     <div className="min-h-screen font-sans antialiased">
       <Navbar />
       <HeroSection />
-      <ProblemSolutionSection />
-      <ValueSection />
-      <WhatYouGainSection />
+      <AudienceSection />
+      <SoftwareSection />
+      <ServicesSection />
+      <HouseSection />
+      <ProblemSection />
+      <SocialProofBar />
       <CtaSection />
       <Footer />
     </div>

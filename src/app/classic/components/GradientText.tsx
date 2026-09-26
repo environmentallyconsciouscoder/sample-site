@@ -1,10 +1,10 @@
-import { BRAND, BRAND_DARK } from "./constants";
+import { BRAND } from "./constants";
 
 export function GradientText({ children }: { children: React.ReactNode }) {
   return (
     <span
       style={{
-        background: `linear-gradient(90deg, ${BRAND_DARK} 0%, ${BRAND} 100%)`,
+        background: `linear-gradient(90deg, #fff 0%, ${BRAND} 100%)`,
         WebkitBackgroundClip: "text",
         WebkitTextFillColor: "transparent",
         backgroundClip: "text",
