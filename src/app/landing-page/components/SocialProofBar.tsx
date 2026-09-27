@@ -3,7 +3,7 @@ const MEMBERSHIPS: { name: string; logo?: string }[] = [
   { name: "Retrofit Academy", logo: "/logos/retrofit-logo.svg" },
   { name: "MyConstructor", logo: "/logos/myconstructor.svg" },
   { name: "ECMK", logo: "/logos/ecmk.svg" },
-  { name: "Carbon13", logo: "/logos/Carbon13_logo.webp" },
+  // { name: "Carbon13", logo: "/logos/Carbon13_logo.webp" },
 ];
 
 export function SocialProofBar() {
